@@ -10,6 +10,8 @@
 
 ## Architecture Diagram
 
+```mermaid
+
 flowchart TB
 
 subgraph L1[Source Control]
@@ -53,3 +55,4 @@ end
 
 User --> PF --> Svc
 User --> Curl --> PF
+```
